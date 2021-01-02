@@ -1,0 +1,40 @@
+.clients {
+  padding: 94px 0px;
+}
+.clients h2 {
+  margin-bottom: 50px;
+}
+
+.clients-links {
+  display: flex;
+}
+.clients-links li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-links a {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  fill: #afb1b8;
+
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-property: border-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    fill: $accent-color;
+  }
+}
+
+// .clients-links a:hover,
+// .clients-links a:focus {
+//   border-color: $accent-color;
+//   fill: $accent-color;
+// }

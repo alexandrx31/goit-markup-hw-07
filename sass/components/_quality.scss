@@ -1,0 +1,39 @@
+.quality {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+.quality h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.quality ul {
+  display: flex;
+}
+.quality li {
+  width: 270px;
+}
+.quality li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.quality-container {
+  width: 270px;
+  height: 120px;
+  background-color: $secondary-background;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality-images {
+  width: 70px;
+  height: 70px;
+}
